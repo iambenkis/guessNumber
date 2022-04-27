@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #333; 
+}
+
+.container .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header button{
+    color: #333;
+    background-color: #fff;
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    margin: 2rem 1rem 2rem 2rem ;
+    border: 1px solid #fff;
+}
+
+.header button:hover{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.header p{    
+    font-size: 1.5rem;
+    margin: 2rem 2rem 0rem 0rem ;
+    color: #fff;
+}
+
+.container h1{
+    color: #fff;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+}
+
+.container .center{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container .center .mynumber {
+    color: #333;
+    width: 12rem;
+    height: 4rem;
+    background-color: #fff;
+    text-align: center; 
+    font-size: 3rem;
+    padding-top: .5rem; 
+    z-index: 1222;
+}
+
+
+ 
+.container .line{
+    content: '';
+    width: 100%;
+    height: .27rem;
+    background-color: #fff;
+    margin-top: -2.4rem;
+    margin-bottom: 5rem;
+    z-index: 0;
+} 
+
+.container .results .input {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container .results {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.results .input .innumber{
+    height: 2rem;
+    width: 7rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: double 1px #fff;
+    background-color: #333;
+    font-size: 1rem;
+    color: #fff;
+}
+.results .input .check{
+    height: 2rem;
+    width: 7rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    font-size: 1rem;
+}
+
+.results .input .check:hover{
+    background-color: #777;
+    color: #fff;
+    cursor: pointer;
+}
+
+.results .output{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.results p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
