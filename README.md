@@ -34,5 +34,5 @@ In this challenge I used a the range from 1 to 20.
       * The output 2 display the current initial score which is `19`
       * The output 3 display the initial `highscore` too.
 
-# Have fun By trying the [Demo version]() 
+# Have fun By trying the [Demo version](https://iambenkis.github.io/guessNumber) 
 
